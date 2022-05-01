@@ -1,11 +1,18 @@
+body{
+    background-image: url(img/makkah\ photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container {
-    width: 150px;
-    height: 175px;
-    background-color: coral;
-    border: 1px solid chocolate;
+    width: 300px;
+    height: 350px;
+    background-color: #3778c2;
+    border: 6px solid #2a3166;
     position: absolute;
-    top: 10%;
-    left: 39%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 20%;
 }
 
@@ -14,30 +21,36 @@
     position: absolute;
     top: 10%;
     left: 20%;
-    height: 30px;
-    caret-color: white;
-    border-radius: 9%;
-    border: 1px solid floralwhite;
+    height: 60px;
+    caret-color: #cae7df;
+    border-radius: 20%;
+    border: 5px solid #2a3166;
     text-align: center;
-    font-size: 34px;
+    font-size: 68px;
+    color: #2a3166;
+    background-color: #cae7df;
 }
 
 .btn {
     position: absolute;
     top: 42%;
     left: 35%;
-    height: 43px;
-    width: 43px;
+    height: 86px;
+    width: 86px;
     border-radius: 50%;
-    background-color: gray;
+    background-color: #0f2557;
+    border: 4px solid #2a3166;
+    cursor: pointer;
 }
 
 .btnNull {
     position: absolute;
     top: 74%;
     left: 41%;
-    height: 29px;
-    width: 29px;
+    height: 58px;
+    width: 58px;
     border-radius: 50%;
-    background-color: burlywood;
+    background-color: #150734;
+    cursor: pointer;
+    border: 4px solid #2a3166;
 }
