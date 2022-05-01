@@ -1,0 +1,43 @@
+.container {
+    width: 150px;
+    height: 175px;
+    background-color: coral;
+    border: 1px solid chocolate;
+    position: absolute;
+    top: 10%;
+    left: 39%;
+    border-radius: 20%;
+}
+
+.textPlace {
+    width: 55%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    height: 30px;
+    caret-color: white;
+    border-radius: 9%;
+    border: 1px solid floralwhite;
+    text-align: center;
+    font-size: 34px;
+}
+
+.btn {
+    position: absolute;
+    top: 42%;
+    left: 35%;
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.btnNull {
+    position: absolute;
+    top: 74%;
+    left: 41%;
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+    background-color: burlywood;
+}
